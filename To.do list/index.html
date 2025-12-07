@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<title>To-Do List Inteligente</title>
+<link rel="stylesheet" href="css/STYLE.css" />
+</head>
+<body>
+<header>
+<h1>To-Do List Inteligente</h1>
+</header>
+
+<main>
+<section class="controls">
+<form id="taskForm">
+<input id="title" placeholder="Nome da tarefa" required />
+<input id="tags" placeholder="Tags Chave" />
+<input id="dueDate" type="date" />
+<select id="priority">
+<option value="low">Baixa</option>
+<option value="medium" selected>Média</option>
+<option value="high">Alta</option>
+</select>
+<button type="submit" class="btn primary">Adicionar</button>
+</form>
+
+
+<div class="actions">
+<input id="search" placeholder="Buscar tarefas..." />
+<select id="filter">
+<option value="all">Todas</option>
+<option value="active">Ativas</option>
+<option value="completed">Concluídas</option>
+<option value="due-soon">Com vencimento próximo</option>
+</select>
+
+
+<p id="empty">Nenhuma tarefa cadastrada.</p>
+<ul id="task-list"></ul>
+
+
+</main>
+
+<footer>
+  <p></p>
+</footer>
+
+
+<script type="module" src="js/main.js.js"></script>
+</body>
+</html>

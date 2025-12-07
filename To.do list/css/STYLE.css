@@ -1,0 +1,37 @@
+body {
+  font-family: Arial Black;
+  margin: 0;
+  background: #c3e4ce;
+}
+
+header, footer {
+  background: #e63fdd;
+  color: white;
+  text-align: center;
+}
+
+main {
+  max-width: 600px;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+
+input, select, button {
+  padding: .5rem;
+}
+
+
+#empty {
+  text-align: center;
+  margin-top: 20px;
+  color: #e63fdd;
+}
+
+
+
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
